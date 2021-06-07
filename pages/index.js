@@ -9,6 +9,8 @@ const Index = () => {
   // console.log('pp', pp);
 
   //fixed bugs
+
+  //add layout5
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
