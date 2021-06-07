@@ -10,6 +10,8 @@ const Index = () => {
 
   //fixed bugs
   //pull 取得遠端數據庫的內容
+
+  //issue2
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
