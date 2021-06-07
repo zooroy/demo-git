@@ -19,6 +19,8 @@ const Index = () => {
   );
 };
 
+//add fixed bugs
+
 // export default connect(state => ({
 //   changeText: state.changeText,
 //   changeBG: state.changeBG,
