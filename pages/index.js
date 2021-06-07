@@ -9,6 +9,7 @@ const Index = () => {
   // console.log('pp', pp);
 
   //fixed bugs
+  //pull 取得遠端數據庫的內容
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
