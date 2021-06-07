@@ -8,8 +8,6 @@ const Index = () => {
   const pp = useSelector(state => state);
   // console.log('pp', pp);
 
-  //add layout 5
-  //add fixed bug
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
@@ -17,8 +15,6 @@ const Index = () => {
     </Layout>
   );
 };
-
-//fixed bugs vol.2
 
 // export default connect(state => ({
 //   changeText: state.changeText,
