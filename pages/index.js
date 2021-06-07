@@ -8,10 +8,6 @@ const Index = () => {
   const pp = useSelector(state => state);
   // console.log('pp', pp);
 
-  //fixed bugs
-
-  //add layout5
-  // fixed bugs
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
