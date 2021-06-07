@@ -15,6 +15,8 @@ const Index = () => {
   // issue3
 
   //addLayout5
+
+  //fixed bugs
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
