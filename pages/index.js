@@ -7,6 +7,8 @@ const Index = () => {
   // console.log('props', props);
   const pp = useSelector(state => state);
   // console.log('pp', pp);
+
+  //fixed bugs
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
