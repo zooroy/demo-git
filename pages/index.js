@@ -6,7 +6,7 @@ import { connect, useSelector } from 'react-redux';
 const Index = () => {
   // console.log('props', props);
   const pp = useSelector(state => state);
-  console.log('pp', pp);
+  // console.log('pp', pp);
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
