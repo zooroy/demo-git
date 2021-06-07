@@ -18,6 +18,8 @@ const Index = () => {
   );
 };
 
+//fixed bugs vol.2
+
 // export default connect(state => ({
 //   changeText: state.changeText,
 //   changeBG: state.changeBG,
