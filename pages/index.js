@@ -12,6 +12,7 @@ const Index = () => {
   //pull 取得遠端數據庫的內容
 
   // add Layout5
+  // add fixed bugs
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
