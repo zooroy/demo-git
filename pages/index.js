@@ -9,10 +9,6 @@ const Index = () => {
   // console.log('pp', pp);
 
   //fixed bugs
-  //pull 取得遠端數據庫的內容
-
-  // add Layout5
-  // add fixed bugs
   return (
     <Layout changeBG={pp.changeBG}>
       <h1>{pp.changeText}</h1>
@@ -20,8 +16,6 @@ const Index = () => {
     </Layout>
   );
 };
-
-//add fixed bugs
 
 // export default connect(state => ({
 //   changeText: state.changeText,
